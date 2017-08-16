@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500px" height="500px" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="197.5" cy="197.5" r="197.5"></circle>
+        <filter x="-15.1%" y="-14.6%" width="130.1%" height="130.1%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="19.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.4   0 0 0 0 0.6   0 0 0 0 0.760784314  0 0 0 0.25 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-3">
+            <stop stop-color="#C44FF9" offset="0%"></stop>
+            <stop stop-color="#595AD3" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard">
+            <g id="Group" transform="translate(53.000000, 53.000000)">
+                <g id="Oval-6-Copy-6">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <g id="Page-1-Copy-13" transform="translate(73.000000, 64.000000)" fill="url(#linearGradient-3)">
+                    <polygon id="Fill-1" points="171.829268 165.450704 157.445304 141 94.4919275 141 80 165.450704"></polygon>
+                    <polygon id="Fill-2" points="124.714227 0 112.167715 21.560701 85.9882065 66.5570677 111.255293 66.5570677 124.795643 43.260701 124.801258 43.263487 162.729962 108.511144 211.256804 191.926178 63.587531 191.926178 49 217 225.841528 217 251.02439 217 187.997048 108.511144 137.406727 21.560701 124.857407 0"></polygon>
+                    <polygon id="Fill-3" points="73.065164 92 0 217.309859 25.3171046 217.309859 83.701161 117.061972 143.865854 117.061972 129.252258 92"></polygon>
+                    <animate xmlns="http://www.w3.org/2000/svg" attributeName="r" dur="2s" repeatCount="indefinite" begin="1s" keyTimes="0;0.33;1" values="0;22;44"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
