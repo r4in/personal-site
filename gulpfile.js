@@ -16,7 +16,7 @@ var runSequence = require('run-sequence');
 var del = require('del');
 
 gulp.task('images', function(){
-  return gulp.src('app/img/**/*.+(png|jpg|jpeg|gif|svg)')
+  return gulp.src('app/img/**/*.+(png|jpg|jpeg|gif|svg|ico)')
   // Caching images that ran through imagemin
   .pipe(cache(imagemin({
       interlaced: true
