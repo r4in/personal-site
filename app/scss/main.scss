@@ -148,9 +148,9 @@ ul,li{
             display: block;
             text-align: center;
             line-height: 36px;
-            box-shadow: 0px 0px 12px 0px rgba(26, 112, 249, 0.6);
+            box-shadow: 0px 0px 12px 0px rgba(26, 112, 249, 0.5);
             &:hover{
-                box-shadow: 0px 0px 15px 0px rgba(26, 112, 249, 0.9);
+                box-shadow: 0px 0px 15px 0px rgba(26, 112, 249, 1);
             }
         }
         &.-medi a{
@@ -161,9 +161,9 @@ ul,li{
             display: block;
             text-align: center;
             line-height: 36px;
-            box-shadow: 0px 0px 12px 0px rgba(11, 227, 112, 0.6);
+            box-shadow: 0px 0px 12px 0px rgba(11, 227, 112, 0.5);
             &:hover{
-                box-shadow: 0px 0px 15px 0px rgba(11, 227, 112, 0.9);
+                box-shadow: 0px 0px 15px 0px rgba(11, 227, 112, 1);
             }
         }
         &.-gith a{
@@ -174,9 +174,9 @@ ul,li{
             display: block;
             text-align: center;
             line-height: 36px;
-            box-shadow: 0px 0px 12px 0px rgba(108, 114, 120, 0.6);
+            box-shadow: 0px 0px 12px 0px rgba(108, 114, 120, 0.5);
             &:hover{
-                box-shadow: 0px 0px 15px 0px rgba(108, 114, 120, 0.9);
+                box-shadow: 0px 0px 15px 0px rgba(108, 114, 120, 1);
             }
         }
     }
