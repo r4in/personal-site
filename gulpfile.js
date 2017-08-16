@@ -5,6 +5,7 @@ var browserSync = require('browser-sync').create();
 var cache = require('gulp-cache');
 var uglify = require('gulp-uglify');
 var gulpIf = require('gulp-if');
+var deploy = require('gulp-gh-pages');
 
 var cssnano = require('gulp-cssnano');
 
@@ -86,3 +87,10 @@ gulp.task('useref',function(){
 		.pipe(gulp.dest('dist'));
 });
 
+/**
+ * Push build to gh-pages
+ */
+gulp.task('deploy', function () {
+  return gulp.src("dist/**/*")
+    .pipe(deploy())
+});
