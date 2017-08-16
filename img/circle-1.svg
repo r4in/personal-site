@@ -1,1 +1,26 @@
-<svg width="139" height="139" viewBox="0 0 139 139" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Oval 3</title><defs><linearGradient x1="100%" y1="34.871%" x2="2.924%" y2="34.871%" id="c"><stop stop-color="#4E85FF" offset="0%"/><stop stop-color="#40E5FF" offset="100%"/></linearGradient><circle id="b" cx="1007.5" cy="259.5" r="40.5"/><filter x="-55.6%" y="-55.6%" width="211.1%" height="211.1%" filterUnits="objectBoundingBox" id="a"><feOffset in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.250980392 0 0 0 0 0.878431373 0 0 0 0 1 0 0 0 0.5 0" in="shadowBlurOuter1"/></filter></defs><g transform="translate(-938 -190)" fill="none" fill-rule="evenodd"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="url(#c)" xlink:href="#b"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="139px" height="139px" viewBox="0 0 139 139" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Oval 3</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="34.8714948%" x2="2.92372376%" y2="34.8714953%" id="linearGradient-1">
+            <stop stop-color="#4E85FF" offset="0%"></stop>
+            <stop stop-color="#40E5FF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="1007.5" cy="259.5" r="40.5"></circle>
+        <filter x="-55.6%" y="-55.6%" width="211.1%" height="211.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="0" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.250980392   0 0 0 0 0.878431373   0 0 0 0 1  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index-Copy" transform="translate(-938.000000, -190.000000)">
+            <g id="Oval-3">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

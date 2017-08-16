@@ -1,1 +1,26 @@
-<svg width="131" height="131" viewBox="0 0 131 131" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>Polygon</title><defs><linearGradient x1="100%" y1="38.273%" x2="0%" y2="38.273%" id="c"><stop stop-color="#FE7A55" offset="0%"/><stop stop-color="#FF337C" offset="100%"/></linearGradient><path id="b" d="M817.038 305.623l49.603 85.915h-99.206z"/><filter x="-31.2%" y="-33.8%" width="162.5%" height="172.2%" filterUnits="objectBoundingBox" id="a"><feOffset dy="2" in="SourceAlpha" result="shadowOffsetOuter1"/><feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"/><feColorMatrix values="0 0 0 0 0.996078431 0 0 0 0 0.423529412 0 0 0 0 0.360784314 0 0 0 0.5 0" in="shadowBlurOuter1"/></filter></defs><g transform="rotate(-15 -673.442 3100.36)" fill="none" fill-rule="evenodd"><use fill="#000" filter="url(#a)" xlink:href="#b"/><use fill="url(#c)" xlink:href="#b"/></g></svg>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="131px" height="131px" viewBox="0 0 131 131" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.1 (44463) - http://www.bohemiancoding.com/sketch -->
+    <title>Polygon</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="100%" y1="38.2727593%" x2="0%" y2="38.2727582%" id="linearGradient-1">
+            <stop stop-color="#FE7A55" offset="0%"></stop>
+            <stop stop-color="#FF337C" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="817.038295 305.62317 866.641426 391.538314 767.435164 391.538314"></polygon>
+        <filter x="-31.2%" y="-33.8%" width="162.5%" height="172.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="10" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.996078431   0 0 0 0 0.423529412   0 0 0 0 0.360784314  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Index-Copy" transform="translate(-763.000000, -292.000000)">
+            <g id="Polygon" transform="translate(817.038295, 348.580742) rotate(-15.000000) translate(-817.038295, -348.580742) ">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+            </g>
+        </g>
+    </g>
+</svg>

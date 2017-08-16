@@ -1,0 +1,213 @@
+@mixin transition{
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+@mixin transition-slow{
+	-webkit-transition: all 0.6s ease;
+	-moz-transition: all 0.6s ease;
+	-ms-transition: all 0.6s ease;
+	-o-transition: all 0.6s ease;
+	transition: all 0.6s ease;
+}
+@mixin border-radius($radius){
+	-webkit-border-radius: ($radius);
+	-moz-border-radius: ($radius);
+	-ms-border-radius: ($radius);
+	-o-border-radius: ($radius);
+	border-radius: ($radius);
+}
+@mixin rounded-side{
+	-webkit-border-radius: 100px 100px 100px 100px;
+	-moz-border-radius: 100px 100px 100px 100px;
+	-ms-border-radius: 100px 100px 100px 100px;
+	-o-border-radius: 100px 100px 100px 100px;
+	border-radius: 100px 100px 100px 100px;
+}
+@mixin box-sizing{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	-o-box-sizing: border-box;
+	box-sizing: border-box;
+}
+@mixin content-box{
+	-webkit-box-sizing: content-box;
+	-moz-box-sizing: content-box;
+	-ms-box-sizing: content-box;
+	-o-box-sizing: content-box;
+	box-sizing: content-box;
+}
+@mixin box-shadow-header{
+	-webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	-ms-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	-o-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+}
+@mixin box-shadow{
+	-webkit-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+	-moz-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+	-ms-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+	-o-box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+	box-shadow: 0 2px 3px rgba(0, 0, 0, 0.3);
+}
+@mixin text-shadow{
+	-webkit-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)!important;
+	-moz-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)!important;
+	-ms-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)!important;
+	-o-text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)!important;
+	text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5)!important;
+}
+// @include box-shadow(0, 1px, 1px, 0, rgba(0, 0, 0, 0.5), null);
+@mixin box-shadow($left, $top, $blur, $spread, $color, $inset:""){
+	-webkit-box-shadow: ($left $top $blur $spread $color #{$inset});
+	-moz-box-shadow: ($left $top $blur $spread $color #{$inset});
+	-ms-box-shadow: ($left $top $blur $spread $color #{$inset});
+	-o-box-shadow: ($left $top $blur $spread $color #{$inset});
+	box-shadow: ($left $top $blur $spread $color #{$inset});
+}
+@mixin box-shadow-none{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	-ms-box-shadow: none;
+	-o-box-shadow: none;
+	box-shadow: none;
+}
+@mixin gradient($from, $to){
+	background: -webkit-linear-gradient($position, $from, $to);
+	background: -moz-linear-gradient($position, $from, $to);
+	background: -ms-linear-gradient($position, $from, $to);
+	background: -o-linear-gradient($position, $from, $to);
+	background: linear-gradient($position, $from, $to);
+}
+@mixin animation-duration($duration){
+	-webkit-animation-duration: ($duration);
+	-moz-animation-duration: ($duration);
+	-ms-animation-duration: ($duration);
+	-o-animation-duration: ($duration);
+	animation-duration: ($duration);
+}
+@mixin animation-delay($delay){
+	-webkit-animation-delay: ($delay);
+	-moz-animation-delay: ($delay);
+	-ms-animation-delay: ($delay);
+	-o-animation-delay: ($delay);
+	animation-delay: ($delay);
+}
+@mixin animate-00{
+	-webkit-animation-delay: (0.0s);
+	-moz-animation-delay: (0.0s);
+	-ms-animation-delay: (0.0s);
+	-o-animation-delay: (0.0s);
+	animation-delay: (0.0s);
+}
+@mixin animate-01{
+	-webkit-animation-delay: (0.2s);
+	-moz-animation-delay: (0.2s);
+	-ms-animation-delay: (0.2s);
+	-o-animation-delay: (0.2s);
+	animation-delay: (0.2s);
+}
+@mixin animate-02{
+	-webkit-animation-delay: (0.4s);
+	-moz-animation-delay: (0.4s);
+	-ms-animation-delay: (0.4s);
+	-o-animation-delay: (0.4s);
+	animation-delay: (0.4s);
+}
+@mixin animate-03{
+	-webkit-animation-delay: (0.6s);
+	-moz-animation-delay: (0.6s);
+	-ms-animation-delay: (0.6s);
+	-o-animation-delay: (0.6s);
+	animation-delay: (0.6s);
+}
+@mixin animate-04{
+	-webkit-animation-delay: (0.8s);
+	-moz-animation-delay: (0.8s);
+	-ms-animation-delay: (0.8s);
+	-o-animation-delay: (0.8s);
+	animation-delay: (0.8s);
+}
+@mixin animate-05{
+	-webkit-animation-delay: (1s);
+	-moz-animation-delay: (1s);
+	-ms-animation-delay: (1s);
+	-o-animation-delay: (1s);
+	animation-delay: (1s);
+}
+@mixin animate-06{
+	-webkit-animation-delay: (1.2s);
+	-moz-animation-delay: (1.2s);
+	-ms-animation-delay: (1.2s);
+	-o-animation-delay: (1.2s);
+	animation-delay: (1.2s);
+}
+@mixin animate-07{
+	-webkit-animation-delay: (1.4s);
+	-moz-animation-delay: (1.4s);
+	-ms-animation-delay: (1.4s);
+	-o-animation-delay: (1.4s);
+	animation-delay: (1.4s);
+}
+@mixin animate-08{
+	-webkit-animation-delay: (1.6s);
+	-moz-animation-delay: (1.6s);
+	-ms-animation-delay: (1.6s);
+	-o-animation-delay: (1.6s);
+	animation-delay: (1.6s);
+}
+@mixin animate-09{
+	-webkit-animation-delay: (1.8s);
+	-moz-animation-delay: (1.8s);
+	-ms-animation-delay: (1.8s);
+	-o-animation-delay: (1.8s);
+	animation-delay: (1.8s);
+}
+@mixin animate-10{
+	-webkit-animation-delay: (2s);
+	-moz-animation-delay: (2s);
+	-ms-animation-delay: (2s);
+	-o-animation-delay: (2s);
+	animation-delay: (2s);
+}
+
+// CUSTOM MIXIN
+@mixin bp($breakpoint){
+    $screenview_min1350:    "only screen and (min-width: 1350px)";
+    $screenview_min1200:    "only screen and (min-width: 1200px) and (max-width: 1349px)";
+    $screenview_min1024:    "only screen and (min-width: 1024px) and (max-width: 1199px)";
+    $screenview_min768:     "only screen and (min-width: 768px) and (max-width: 1023px)";
+    $screenview_min600:     "only screen and (min-width: 600px) and (max-width: 767px)";
+    $screenview_min480:     "only screen and (min-width: 480px) and (max-width: 599px)";
+    $screenview_min321:     "only screen and (min-width: 321px) and (max-width: 479px)";
+    $screenview_max320:     "only screen and (max-width: 320px)";
+
+    @if $breakpoint == 1350{
+        @media #{$screenview_min1350}{ @content; }
+    }
+    @else if $breakpoint == 1200{
+        @media #{$screenview_min1200}{ @content; }
+    }
+    @else if $breakpoint == 1024{
+        @media #{$screenview_min1024}{ @content; }
+    }
+    @else if $breakpoint == 768{
+        @media #{$screenview_min768}{ @content; }
+    }
+    @else if $breakpoint == 600{
+        @media #{$screenview_min600}{ @content; }
+    }
+    @else if $breakpoint == 480{
+        @media #{$screenview_min480}{ @content; }
+    }
+    @else if $breakpoint == 321{
+        @media #{$screenview_min321}{ @content; }
+    }
+    @else if $breakpoint == 320{
+        @media #{$screenview_max320}{ @content; }
+    }
+}
