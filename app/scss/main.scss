@@ -43,8 +43,19 @@ body{
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: $font-ptserif;
-    background: url(../img/bg-hero.jpg) no-repeat center center fixed; 
+    background: #0b0c10 url(../img/bg-hero.jpg) no-repeat center center fixed; 
     background-size: cover;
+
+        display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+a{
+  &:hover, &:visited{
+    color: $color-sun;
+    text-decoration: none;
+  }
 }
 
 section{
@@ -59,15 +70,21 @@ h1,h2,h3,h4,h5,h6,p,a,blockquote{
 h1,h2,h3,h4,h5,h6,p{
     margin: 0.5rem 0;
     color: $color-white;
-    display: inline-block;
     padding: 7px 10px;
     span{
-        background-color: rgba(19, 20, 24, 0.6);
-        line-height: 2em;
-        padding: 8px 0;
+        background-color: rgba(10, 11, 15, 0.75);
+        line-height: 34px;
+        padding: 6px 0;
         width: 110%;
-        box-shadow: 10px 0 0 rgba(19, 20, 24, 0.6), -10px 0 0 rgba(19, 20, 24, 0.6);
+        box-shadow: 10px 0 0 rgba(10, 11, 15, 0.75), -10px 0 0 rgba(10, 11, 15, 0.75);
     }
+}
+
+h2{
+  span{
+    line-height: 36px;
+    padding: 4px 0;
+  }
 }
 
 h1{
@@ -84,7 +101,7 @@ a{
 }
 
 p{
-    font-size: 1rem;
+    font-size: 14px;
 }
 
 ul,li{
@@ -128,12 +145,12 @@ ul,li{
         }
         &.-drib a{
             background-color: #E64C87;
-            height: 36px;
-            width: 36px;
+            height: 42px;
+            width: 42px;
             border-radius: 8px;
             display: block;
             text-align: center;
-            line-height: 36px;
+            line-height: 42px;
             box-shadow: 0px 0px 12px 0px rgba(230, 76, 135, 0.4);
             &:hover{
                 box-shadow: 0px 0px 15px 0px rgba(230, 76, 135, 0.9);
@@ -142,12 +159,12 @@ ul,li{
         }
         &.-beha a{
             background-color: #1A70F9;
-            height: 36px;
-            width: 36px;
+            height: 42px;
+            width: 42px;
             border-radius: 8px;
             display: block;
             text-align: center;
-            line-height: 36px;
+            line-height: 42px;
             box-shadow: 0px 0px 12px 0px rgba(26, 112, 249, 0.5);
             &:hover{
                 box-shadow: 0px 0px 15px 0px rgba(26, 112, 249, 1);
@@ -155,12 +172,12 @@ ul,li{
         }
         &.-medi a{
             background-color: #0BE370;
-            height: 36px;
-            width: 36px;
+            height: 42px;
+            width: 42px;
             border-radius: 8px;
             display: block;
             text-align: center;
-            line-height: 36px;
+            line-height: 42px;
             box-shadow: 0px 0px 12px 0px rgba(11, 227, 112, 0.5);
             &:hover{
                 box-shadow: 0px 0px 15px 0px rgba(11, 227, 112, 1);
@@ -168,15 +185,28 @@ ul,li{
         }
         &.-gith a{
             background-color: #6C7278;
-            height: 36px;
-            width: 36px;
+            height: 42px;
+            width: 42px;
             border-radius: 8px;
             display: block;
             text-align: center;
-            line-height: 36px;
+            line-height: 42px;
             box-shadow: 0px 0px 12px 0px rgba(108, 114, 120, 0.5);
             &:hover{
                 box-shadow: 0px 0px 15px 0px rgba(108, 114, 120, 1);
+            }
+        }
+        &.-speak a{
+            background-color: #1A70F9;
+            height: 42px;
+            width: 42px;
+            border-radius: 8px;
+            display: block;
+            text-align: center;
+            line-height: 42px;
+            box-shadow: 0px 0px 12px 0px rgba(26, 112, 249, 0.5);
+            &:hover{
+                box-shadow: 0px 0px 15px 0px rgba(26, 112, 249, 1);
             }
         }
     }

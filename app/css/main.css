@@ -508,8 +508,15 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-family: "PT Serif", serif;
-  background: url(../img/bg-hero.jpg) no-repeat center center fixed;
-  background-size: cover; }
+  background: #0b0c10 url(../img/bg-hero.jpg) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  height: 100vh; }
+
+a:hover, a:visited {
+  color: #FDC02F;
+  text-decoration: none; }
 
 section {
   padding-top: 2.5rem;
@@ -521,14 +528,17 @@ h1, h2, h3, h4, h5, h6, p, a, blockquote {
 h1, h2, h3, h4, h5, h6, p {
   margin: 0.5rem 0;
   color: #ffffff;
-  display: inline-block;
   padding: 7px 10px; }
   h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, p span {
-    background-color: rgba(19, 20, 24, 0.6);
-    line-height: 2em;
-    padding: 8px 0;
+    background-color: rgba(10, 11, 15, 0.75);
+    line-height: 34px;
+    padding: 6px 0;
     width: 110%;
-    box-shadow: 10px 0 0 rgba(19, 20, 24, 0.6), -10px 0 0 rgba(19, 20, 24, 0.6); }
+    box-shadow: 10px 0 0 rgba(10, 11, 15, 0.75), -10px 0 0 rgba(10, 11, 15, 0.75); }
+
+h2 span {
+  line-height: 36px;
+  padding: 4px 0; }
 
 h1 {
   font-size: 2.25rem;
@@ -541,7 +551,7 @@ a {
   transition: all 0.3s ease; }
 
 p {
-  font-size: 1rem; }
+  font-size: 14px; }
 
 ul, li {
   padding-left: 0;
@@ -727,48 +737,59 @@ ul, li {
     top: 1px; }
   .social-links > .social-icon.-drib a {
     background-color: #E64C87;
-    height: 36px;
-    width: 36px;
+    height: 42px;
+    width: 42px;
     border-radius: 8px;
     display: block;
     text-align: center;
-    line-height: 36px;
+    line-height: 42px;
     box-shadow: 0px 0px 12px 0px rgba(230, 76, 135, 0.4); }
     .social-links > .social-icon.-drib a:hover {
       box-shadow: 0px 0px 15px 0px rgba(230, 76, 135, 0.9); }
   .social-links > .social-icon.-beha a {
     background-color: #1A70F9;
-    height: 36px;
-    width: 36px;
+    height: 42px;
+    width: 42px;
     border-radius: 8px;
     display: block;
     text-align: center;
-    line-height: 36px;
+    line-height: 42px;
     box-shadow: 0px 0px 12px 0px rgba(26, 112, 249, 0.5); }
     .social-links > .social-icon.-beha a:hover {
       box-shadow: 0px 0px 15px 0px #1a70f9; }
   .social-links > .social-icon.-medi a {
     background-color: #0BE370;
-    height: 36px;
-    width: 36px;
+    height: 42px;
+    width: 42px;
     border-radius: 8px;
     display: block;
     text-align: center;
-    line-height: 36px;
+    line-height: 42px;
     box-shadow: 0px 0px 12px 0px rgba(11, 227, 112, 0.5); }
     .social-links > .social-icon.-medi a:hover {
       box-shadow: 0px 0px 15px 0px #0be370; }
   .social-links > .social-icon.-gith a {
     background-color: #6C7278;
-    height: 36px;
-    width: 36px;
+    height: 42px;
+    width: 42px;
     border-radius: 8px;
     display: block;
     text-align: center;
-    line-height: 36px;
+    line-height: 42px;
     box-shadow: 0px 0px 12px 0px rgba(108, 114, 120, 0.5); }
     .social-links > .social-icon.-gith a:hover {
       box-shadow: 0px 0px 15px 0px #6c7278; }
+  .social-links > .social-icon.-speak a {
+    background-color: #1A70F9;
+    height: 42px;
+    width: 42px;
+    border-radius: 8px;
+    display: block;
+    text-align: center;
+    line-height: 42px;
+    box-shadow: 0px 0px 12px 0px rgba(26, 112, 249, 0.5); }
+    .social-links > .social-icon.-speak a:hover {
+      box-shadow: 0px 0px 15px 0px #1a70f9; }
 
 .social-links .fa {
   font-size: 16px; }
